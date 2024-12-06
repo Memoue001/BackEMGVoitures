@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "y2cRqZYA0A5kKFUffI8gIAXXyy5LA4OzBrEY1oaXobA=",
+  "Source": "EMGVoitures",
+  "BasePath": "_content/EMGVoitures",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EMGVoitures\\wwwroot",
+      "Source": "EMGVoitures",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\EMGVoitures\\wwwroot\\",
+      "BasePath": "_content/EMGVoitures",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
