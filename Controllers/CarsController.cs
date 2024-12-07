@@ -44,13 +44,13 @@ namespace EMGVoitures.Controllers
 
         // POST: api/cars
         [HttpPost]
-        //[Authorize(Roles = "Admin")]  // Limité aux administrateurs
+        //[Authorize(Roles = "Admin")]  // Limitï¿½ aux administrateurs
         public async Task<ActionResult<Car>> PostCar(Car car)
         {
-            // Validation des années des voitures
+            // Validation des annï¿½es des voitures
             if (car.Year < 2010)
             {
-                return BadRequest("La voiture ne peut pas être plus ancienne que 2010.");
+                return BadRequest("La voiture ne peut pas ï¿½tre plus ancienne que 2010.");
             }
 
             _context.Cars.Add(car);

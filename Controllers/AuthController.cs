@@ -32,29 +32,29 @@ namespace EMGVoitures.Controllers
                 return Unauthorized(); // Si l'utilisateur n'existe pas
             }
 
-            // Vérifier le mot de passe
+            // Vï¿½rifier le mot de passe
             var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
             if (!result.Succeeded)
             {
-                return Unauthorized(); // Si l'authentification échoue
+                return Unauthorized(); // Si l'authentification ï¿½choue
             }
 
-            // Générer le token JWT
+            // Gï¿½nï¿½rer le token JWT
             var token = _jwtService.GenerateJwtToken(user.Id);
 
-            // Récupérer les rôles de l'utilisateur
+            // Rï¿½cupï¿½rer les rï¿½les de l'utilisateur
             var roles = await _userManager.GetRolesAsync(user);
 
-            // Retourner le token et les rôles dans la réponse
+            // Retourner le token et les rï¿½les dans la rï¿½ponse
             return Ok(new
             {
                 Token = token,
-                Roles = roles  // Inclure les rôles dans la réponse
+                Roles = roles  // Inclure les rï¿½les dans la rï¿½ponse
             });
         }
     }
 
-    // Modèle de login
+    // Modï¿½le de login
     public class LoginModel
     {
         public string Username { get; set; }
