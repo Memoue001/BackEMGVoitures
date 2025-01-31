@@ -14,15 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EMGVoitures")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac80f38df020e88bdba64d065c365d749f09d14")]
-=======
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e771ff99227138adcc510bb3eba51a663ba161b0")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c609747b09eaa5f3f08036a1fa164479eaec1b7")]
->>>>>>> 6f947d7 (commit 21)
->>>>>>> 3b9d0ed (commit 20)
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c93f982c44aefa27a22db6bce023682ea1cb1150")]
 [assembly: System.Reflection.AssemblyProductAttribute("EMGVoitures")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EMGVoitures")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

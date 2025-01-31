@@ -1,3 +1,6 @@
+# Pour le lancement en local < il faut lancer le back et le front separement >
+
+
 # EMG Voitures
 
 ## Prérequis
