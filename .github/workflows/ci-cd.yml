@@ -37,9 +37,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Publish
+        run: dotnet publish --configuration Release --output ./publish
+
       - name: Deploy to Server via SSH
         run: |
           echo "Deploying to production..."
-          scp -r ./bin/Release/net8.0/publish/ user@server:/path/to/deploy
+          scp -r ./publish/ user@server:/path/to/deploy
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
