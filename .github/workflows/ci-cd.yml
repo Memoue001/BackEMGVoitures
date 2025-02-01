@@ -30,14 +30,14 @@ jobs:
       - name: Run tests
         run: dotnet test --configuration Release --no-build --verbosity normal
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+  #deploy:
+   # runs-on: ubuntu-latest
+   # needs: build
+   # steps:
+    #  - name: Checkout code
+    #    uses: actions/checkout@v3
 
-      - name: Deploy to Server
-        run: |
-          echo "Deploying to production..."
+    #  - name: Deploy to Server
+     #   run: |
+     #     echo "Deploying to production..."
           # Ajoute ici ta commande de déploiement (ex. via FTP, SSH, ou Azure CLI)
