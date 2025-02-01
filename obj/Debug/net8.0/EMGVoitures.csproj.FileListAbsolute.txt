@@ -522,3 +522,4 @@ C:\Users\DELL\source\repos\EMGVoitures\bin\Debug\net8.0\refs\Microsoft.Extension
 C:\Users\DELL\source\repos\EMGVoitures\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
 C:\Users\DELL\source\repos\EMGVoitures\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\DELL\source\repos\EMGVoitures\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\source\repos\EMGVoitures\obj\Debug\net8.0\EMGVoitures.sourcelink.json
